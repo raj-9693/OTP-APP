@@ -17,10 +17,17 @@ class MainActivity : AppCompatActivity() {
         enableEdgeToEdge()
         setContentView(binding.root)
 
-        binding.text.setOnClickListener {
-            val intent = Intent(this, MainActivity2::class.java)
-            startActivity(intent)
-            Toast.makeText(this,"NEXT-Activity", Toast.LENGTH_SHORT).show()
+//        binding.text.setOnClickListener {
+//            val intent = Intent(this, MainActivity2::class.java)
+//            startActivity(intent)
+//            Toast.makeText(this,"NEXT-Activity", Toast.LENGTH_SHORT).show()
+//
+//        }
+        binding.button.setOnClickListener {
+
+          val name =binding.edittext.text.toString()
+
+           binding.text.setText(name)
         }
 
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main)) { v, insets ->

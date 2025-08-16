@@ -30,7 +30,7 @@ class MainActivity : AppCompatActivity() {
           val name =binding.edittext.text.toString()
 
            binding.text.setText(name)
-            Toast.makeText(this,"sucessful", Toast.LENGTH_SHORT).show()
+           
         }
 
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main)) { v, insets ->

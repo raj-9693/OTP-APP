@@ -21,6 +21,7 @@ class MainActivity : AppCompatActivity() {
             val intent = Intent(this, MainActivity2::class.java)
             startActivity(intent)
 
+
             Toast.makeText(this,"NEXT-Activity", Toast.LENGTH_SHORT).show()
 
 
@@ -30,7 +31,11 @@ class MainActivity : AppCompatActivity() {
           val name =binding.edittext.text.toString()
 
            binding.text.setText(name)
-            Toast.makeText(this,"sucessful", Toast.LENGTH_SHORT).show()
+
+
+
+            Toast.makeText(this, "click", Toast.LENGTH_LONG).show()
+
         }
 
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main)) { v, insets ->

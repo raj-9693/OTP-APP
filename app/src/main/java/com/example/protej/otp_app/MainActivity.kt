@@ -28,6 +28,7 @@ class MainActivity : AppCompatActivity() {
           val name =binding.edittext.text.toString()
 
            binding.text.setText(name)
+            Toast.makeText(this, "click", Toast.LENGTH_LONG).show()
         }
 
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main)) { v, insets ->

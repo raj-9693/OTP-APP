@@ -31,11 +31,15 @@ class MainActivity : AppCompatActivity() {
           val name =binding.edittext.text.toString()
 
            binding.text.setText(name)
+<<<<<<< HEAD
 
 
 
             Toast.makeText(this, "click", Toast.LENGTH_LONG).show()
 
+=======
+           
+>>>>>>> 086e76cc8c4c0ac198a050cb9d7527220366fe54
         }
 
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main)) { v, insets ->

@@ -1,4 +1,4 @@
-package com.example.protej.otp_app
+package com.example.protej.otp_app.view
 
 import android.content.Intent
 import android.os.Bundle
@@ -7,6 +7,8 @@ import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
+import com.example.protej.otp_app.view.MainActivity2
+import com.example.protej.otp_app.R
 import com.example.protej.otp_app.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
